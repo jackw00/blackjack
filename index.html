@@ -1,0 +1,26 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body class="game">
+        <h1>Blackjack</h1>
+        <button onclick="newGame()" id="startButton">Start Game</button>
+        <button><a href="rules.html" target="_blank">See Rules</a></button>
+        <hr>
+        <br>
+        <p id="player-el"></p>
+        <p id="wager-el"></p>
+        <p id="message-el"></p>
+        <button onclick="newDeal()" id="dealButton">Deal</button>
+        <button onclick="givePlayerCard()" id="newCardButton">Hit</button>
+        <button onclick="dealDealer()" id="holdButton">Stand</button>
+
+        <p id="cards-el"></p>
+        <p id="sum-el"></p>
+        <br>
+        <p id="dealerCards-el"></p>
+        <p id="dealerSum-el"></p>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
